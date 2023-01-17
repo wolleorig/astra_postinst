@@ -1,7 +1,5 @@
 #!/bin/bash
-apt install qtcreator
-apt install lazarus
-apt install git libxml2-dev libgtk-3-dev intltool libmpfr-dev libcurl4-gnutls-dev
+apt install -y qtcreator lazarus git libxml2-dev libgtk-3-dev intltool libmpfr-dev libcurl4-gnutls-dev curl
 curl -s https://thonny.org/installer-for-linux
 mkdir calculator
 cd calculator/
